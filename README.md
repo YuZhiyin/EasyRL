@@ -12,6 +12,8 @@ EasyRL is inspired by cognitive learning theory and aims to answer:
 
 > *Can LLMs evolve from limited easy labeled data to solve harder problems?*
 
+![EasyRL](figs/EasyRL.jpg)
+
 The framework implements a semi-supervised RL training pipeline for reasoning through three stages:
 1. **Knowledge Transfer:** Supervised GRPO training on labeled data.
 2. **Divide-and-Conquer Pseudo Labeling:** Filtering and labeling on unlabeled data.
